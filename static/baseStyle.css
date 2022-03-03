@@ -1,4 +1,12 @@
 body {
     background-color: darkred;
+}
 
+h1 {
+
+}
+
+p {
+    tab-size: 6px;
+    font-family: "Lucida Sans";
 }
