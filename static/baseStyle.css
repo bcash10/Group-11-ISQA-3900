@@ -10,3 +10,6 @@ p {
     tab-size: 6px;
     font-family: "Lucida Sans";
 }
+.navbar .active {
+    font-weight: bold;
+}
