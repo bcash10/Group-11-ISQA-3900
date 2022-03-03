@@ -1,5 +1,5 @@
 body {
-    background-color: darkred;
+    background-color: #d9181d;
 }
 
 h1 {
@@ -9,6 +9,7 @@ h1 {
 p {
     tab-size: 6px;
     font-family: "Lucida Sans";
+    font-size: 20px;
 }
 .navbar .active {
     font-weight: bold;
