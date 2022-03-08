@@ -15,7 +15,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- add local stylesheet -->
-<link rel="stylesheet" href="{% static "css/portfolio.css" %}">
+<link rel="stylesheet" href="{% static "static/baseStyle.css" %}">
 
 
 <div class="container-fluid">
@@ -35,10 +35,10 @@
                 <a class="nav-link" href="{% url 'mavSlice:HomePage' %}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'mavSlice:Menu' %}">Customers</a>
+                <a class="nav-link" href="{% url 'mavSlice:Menu' %}">Menu</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'mavSlice:Cart' %}">Services</a>
+                <a class="nav-link" href="{% url 'mavSlice:Cart' %}">Cart</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'mavSlice:product_list' %}">Products</a>
