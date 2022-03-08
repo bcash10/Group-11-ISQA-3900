@@ -37,16 +37,16 @@
         <ul class="navbar-nav mr-auto">
             <li class="navbar-brand"></li>
             <li class="nav-item active">
-                <a class="nav-link" href="{% url 'crm:home' %}">Home</a>
+                <a class="nav-link" href="{% url 'mavSlice:HomePage' %}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'crm:customer_list' %}">Customers</a>
+                <a class="nav-link" href="{% url 'mavSlice:Menu' %}">Customers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'crm:service_list' %}">Services</a>
+                <a class="nav-link" href="{% url 'mavSlice:Cart' %}">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'crm:product_list' %}">Products</a>
+                <a class="nav-link" href="{% url 'mavSlice:product_list' %}">Products</a>
             </li>
         </ul>
         <!--Display Login/Logout right-justified in navbar -->
