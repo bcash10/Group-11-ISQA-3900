@@ -36,4 +36,3 @@ urlpatterns = [
     path('customer/<int:pk>/summary/', views.summary, name='summary'),
 
 ]
-

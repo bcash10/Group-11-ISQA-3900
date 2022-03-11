@@ -124,7 +124,3 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-    ...
-    'django.core.context_processors.request',
-)
