@@ -6,33 +6,118 @@ from _decimal import Decimal
 from .models import *
 from .forms import *
 
-now = timezone.now()
 
 def home(request):
-    return render(request, 'crm/home.html',
-                  {'crm': home})
+    return render(request, 'mavSlice/home.html',
+                  {'Home': home})
+
+
+def Menu(request):
+    return render(request, 'mavSlice/Menu.html',
+                  {'Menu': Menu})
+
+
+@login_required
+def Cart(request):
+    pass
+
+
+def cart_delivery(request):
+    pass
+
+
+def checkout(request):
+    pass
+
 
 @login_required
 def customer_list(request):
-
-    customer = Customer.objects.filter()
+    customer = User.objects.filter()
     return render(request, 'crm/customer_list.html',
                   {'customers': customer})
 
+
 @login_required
-def customer_edit(request, pk):
-    customer = get_object_or_404(Customer, pk=pk)
-    if request.method == "POST":
-        # update
-        form = CustomerForm(request.POST, instance=customer)
-        if form.is_valid():
-            customer = form.save(commit=False)
-            customer.updated_date = timezone.now()
-            customer.save()
-            customer = Customer.objects.filter()
-            return render(request, 'crm/customer_list.html',
-                          {'customers': customer})
-    else:
-        # edit
-        form = CustomerForm(instance=customer)
-        return render(request, 'crm/customer_edit.html', {'form': form})
+def order_list(request):
+    pass
+
+
+@login_required
+def order_completed_list(request):
+    pass
+
+
+@login_required
+def order_NOT_completed_list(request):
+    pass
+
+
+@login_required
+def order_mark_as_completed(request):
+    pass
+
+
+@login_required
+def order_confirmation(request):
+    pass
+
+
+def coupon_list(request):
+    pass
+
+
+@login_required
+def coupon_new(request):
+    pass
+
+
+@login_required
+def coupon_edit(request):
+    pass
+
+
+@login_required
+def product_list(request):
+    pass
+
+
+@login_required
+def product_info(request):
+    pass
+
+
+@login_required
+def product_new(request):
+    pass
+
+
+@login_required
+def ProductEdit(request):
+    pass
+
+
+@login_required
+def product_delete(request):
+    pass
+
+
+@login_required
+def user_info(request):
+    pass
+
+
+@login_required
+def user_info_delivery(request):
+    pass
+
+
+@login_required
+def user_info_payment(request):
+    pass
+
+# @login_required
+# def customer_list(request):
+#
+#     customer = Customer.objects.filter()
+#     return render(request, 'crm/customer_list.html',
+#                   {'customers': customer})

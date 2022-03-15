@@ -1,11 +1,12 @@
 import uuid
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AbstractUser
 # 3/15/2022: Unfinished work = determining Product price, storing payment info
 
 
 class Customer(models.Model):
     # We only have to add our extra variables here
+    # Current authentication uses username, may need to switch to email
     cust_id = models.UUIDField(primary_key=True, default=uuid.uuid4)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     delivery_info = models.OneToOneField('Delivery', null=True, on_delete=models.CASCADE)
@@ -93,4 +94,3 @@ class Order(models.Model):
     payment = models.ForeignKey('Payment', on_delete=models.CASCADE)
     delivery = models.ForeignKey('Delivery', on_delete=models.CASCADE)
     coupon = models.ForeignKey('Coupon', null=True, on_delete=models.CASCADE)
-
