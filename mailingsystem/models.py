@@ -83,3 +83,14 @@ class Toppings(models.Model):
     PRODUCT_TOPPINGS = ['Pepperoni', 'Beef', 'Italian Sausage', 'Canadian Bacon', 'Bacon', 'Chicken', 'Green Pepper',
                         'Jalapeno', 'Onion', 'Banana Pepper', 'Black Olive', 'None']
     name = models.CharField(max_length=15, choices=PRODUCT_TOPPINGS, null=False, blank=True, default='None')
+
+
+class Order(models.Model):
+    order_id = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique ID for a specific Order')
+    # Zero to many relationship from User to Order
+    # OneToOne relationship from Order to User
+    customer = models.OneToOneField('Customer', primary_key=True, on_delete=models.CASCADE)
+    payment = models.ForeignKey('Payment', on_delete=models.CASCADE)
+    delivery = models.ForeignKey('Delivery', on_delete=models.CASCADE)
+    coupon = models.ForeignKey('Coupon', null=True, on_delete=models.CASCADE)
+
