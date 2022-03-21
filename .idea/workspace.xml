@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="769d8848-6653-46e9-8cf7-517fe79ba833" name="Changes" comment="Removed unnecessary service_list file" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25tBlFs1Njm648Qsxao79gcu2Wi" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assign-2---django-mspotanski/mfscrm" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="769d8848-6653-46e9-8cf7-517fe79ba833" name="Changes" comment="" />
+      <created>1646336652130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646336652130</updated>
+      <workItem from="1646336654197" duration="2220000" />
+      <workItem from="1646770639145" duration="2166000" />
+      <workItem from="1647200172349" duration="2118000" />
+      <workItem from="1647202806452" duration="10802000" />
+      <workItem from="1647323806605" duration="10893000" />
+      <workItem from="1647541521480" duration="113000" />
+      <workItem from="1647541648153" duration="1364000" />
+      <workItem from="1647543062575" duration="307000" />
+      <workItem from="1647544007467" duration="14000" />
+      <workItem from="1647545148984" duration="4539000" />
+      <workItem from="1647729989702" duration="26000" />
+    </task>
+    <task id="LOCAL-00001" summary="HTML Files for mavSlice">
+      <created>1646338093017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646338093017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <created>1646338616469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646338616469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update CSS File">
+      <created>1646770766333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646770766333</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update CSS File">
+      <created>1646771548324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646771548324</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update CSS File">
+      <created>1646771674322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646771674322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update CSS File">
+      <created>1646771847393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646771847393</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create and Update Most of Data Model diagram. Still need to update Payment Info and Determining price">
+      <created>1647323674471</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647323674471</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Forgot Order; added now; may require touch up later">
+      <created>1647324187498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647324187498</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated Views and URLs. All necessary html docs are now in the templates/mavSlice folder. A base view is supplied for each page and the URL routing for each page is entered.">
+      <created>1647377670665</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647377670665</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Removed unnecessary service_list file">
+      <created>1647377745229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647377745229</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Removed unnecessary service_list file">
+      <created>1647618007028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647618007028</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HTML Files for mavSlice" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Update CSS File" />
+    <MESSAGE value="Create and Update Most of Data Model diagram. Still need to update Payment Info and Determining price" />
+    <MESSAGE value="Forgot Order; added now; may require touch up later" />
+    <MESSAGE value="Updated Views and URLs. All necessary html docs are now in the templates/mavSlice folder. A base view is supplied for each page and the URL routing for each page is entered." />
+    <MESSAGE value="Removed unnecessary service_list file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary service_list file" />
+  </component>
+</project>
